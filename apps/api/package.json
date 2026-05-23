@@ -1,0 +1,24 @@
+{
+  "name": "@lsc-ai/api",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/server.ts --format esm --clean --dts --external pdf-parse --external mammoth",
+    "dev": "tsx watch src/server.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@lsc-ai/shared": "workspace:*",
+    "fastify": "^5.3.3",
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.4",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

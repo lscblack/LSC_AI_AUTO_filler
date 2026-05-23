@@ -1,0 +1,23 @@
+{
+  "name": "lsc-ai-auto-filler",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.11.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r --if-present build",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "dev:api": "pnpm --filter @lsc-ai/api dev",
+    "dev:extension": "pnpm --filter @lsc-ai/extension dev",
+    "lint": "pnpm -r --if-present lint"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
