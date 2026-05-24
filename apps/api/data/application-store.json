@@ -16,21 +16,59 @@
   "history": [
     {
       "type": "answer.draft",
+      "question": "What is your Primary Nationality?",
+      "shouldReview": true,
+      "confidence": 0.65,
+      "timestamp": "2026-05-23T21:58:56.450Z"
+    },
+    {
+      "type": "answer.draft",
+      "question": "Do you have a relevant unspent conviction?*",
+      "shouldReview": true,
+      "confidence": 0.65,
+      "timestamp": "2026-05-23T21:58:56.497Z"
+    },
+    {
+      "type": "answer.draft",
       "question": "text",
       "shouldReview": true,
       "confidence": 0.65,
-      "timestamp": "2026-05-23T21:57:27.877Z"
-    }
-  ]
-}
-5Z"
-    }
-  ]
-}
-   }
-  ]
-}
-7:27.874Z"
+      "timestamp": "2026-05-23T21:59:01.094Z"
+    },
+    {
+      "type": "answer.draft",
+      "question": "text",
+      "shouldReview": true,
+      "confidence": 0.65,
+      "timestamp": "2026-05-23T21:59:04.640Z"
+    },
+    {
+      "type": "answer.draft",
+      "question": "text",
+      "shouldReview": true,
+      "confidence": 0.65,
+      "timestamp": "2026-05-23T21:59:05.314Z"
+    },
+    {
+      "type": "answer.draft",
+      "question": "text",
+      "shouldReview": true,
+      "confidence": 0.65,
+      "timestamp": "2026-05-23T21:59:54.297Z"
+    },
+    {
+      "type": "answer.draft",
+      "question": "text",
+      "shouldReview": true,
+      "confidence": 0.65,
+      "timestamp": "2026-05-23T21:59:57.324Z"
+    },
+    {
+      "type": "answer.draft",
+      "question": "text",
+      "shouldReview": true,
+      "confidence": 0.85,
+      "timestamp": "2026-05-23T22:00:29.120Z"
     }
   ]
 }
